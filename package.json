@@ -1,0 +1,44 @@
+{
+  "name": "roam-depot-toggl-track",
+  "version": "0.0.1",
+  "description": "Extension to integrate with Toggl Track (https://toggl.com/track/)",
+  "main": "./build/main.js",
+  "author": {
+    "name": "Daniel van der Merwe",
+    "email": "hi@danielvandermerwe.com"
+  },
+  "scripts": {
+    "start": "roamjs-scripts dev --depot",
+    "dev:dep": "roamjs-scripts dev --port 3100",
+    "prebuild:roam": "npm install",
+    "build:roam": "roamjs-scripts build --depot"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandermerwed/roam-depot-toggl-track.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vandermerwed/roam-depot-toggl-track/issues"
+  },
+  "homepage": "https://github.com/vandermerwed/roam-depot-toggl-track#readme",
+  "tags": [
+    "time",
+    "tracking",
+    "time tracking",
+    "toggl",
+    "toggl track"
+  ],
+  "devDependencies": {
+    "@blueprintjs/core": "3.50.4",
+    "@blueprintjs/select": "3.18.6",
+    "@types/react": "17.0.39",
+    "roamjs-scripts": "^0.23.1"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "cross-env": "^7.0.3",
+    "roamjs-components": "^0.74.7",
+    "toggl-track": "^0.7.5"
+  }
+}
