@@ -2,6 +2,8 @@
 
 This extension allows you to track time in Toggl Track and pull timers into your Roam Research database.
 
+![roam_depot_toggl_track_demo](https://user-images.githubusercontent.com/8472841/198710388-3c10e611-7037-4eae-b417-50298115d239.gif)
+
 > 🚧 This extention is still work in progress and there might be breaking changes from time to time. Please [report any issues](https://github.com/vandermerwed/roam-depot-toggl-track/issues) you find.
 
 ## Configuration
