@@ -15,7 +15,7 @@ function onload({ extensionAPI }: OnloadArgs) {
       {
         id: "api-token",
         name: "API Token",
-        description: "Can be found at the bottom of the page on  https://track.toggl.com/profile",
+        description: "Can be found at the bottom of the page on https://track.toggl.com/profile",
         action: {
           type: "input",
           placeholder: "Your Toggl API Token",
